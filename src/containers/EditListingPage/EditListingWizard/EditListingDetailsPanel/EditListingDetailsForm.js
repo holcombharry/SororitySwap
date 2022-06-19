@@ -131,11 +131,11 @@ const EditListingDetailsFormComponent = props => (
         id: 'EditListingDetailsForm.sororityPlaceholder',
       });
 
-      const sororityRequired = required(
-        intl.formatMessage({
-          id: 'EditListingDetailsForm.sororityRequired',
-        })
-      );
+      // const sororityRequired = required(
+      //   intl.formatMessage({
+      //     id: 'EditListingDetailsForm.sororityRequired',
+      //   })
+      // );
 
       return (
         <Form className={classes} onSubmit={handleSubmit}>
@@ -188,7 +188,7 @@ const EditListingDetailsFormComponent = props => (
             options={sororities}
             label={sororityLabel}
             placeholder={sororityPlaceholder}
-            validate={sororityRequired}
+            // validate={sororityRequired}
             schemaType={sororitySchemaType}
           />
 
