@@ -1,6 +1,6 @@
 {
-  "name": "Sharetribe Flex Template Demo",
-  "description": "Sharetribe Flex Template Demo - Sneakertime!",
+  "name": "The Sorority Swap",
+  "description": "One stop shop for all your Sorority apparel needs. The Sorority Swap!",
   "keywords": ["node", "react"],
   "repository": "https://github.com/sharetribe/ftw-product/",
   "env": {
@@ -15,6 +15,9 @@
     },
     "REACT_APP_STRIPE_PUBLISHABLE_KEY": {
       "description": "Stripe publishable API key for generating tokens with Stripe API. Use test key (prefix pktest) for development."
+    },
+    "EASYPOST_API_KEY": {
+      "description": "API Key for EASYPOST transactions. Use test key for development."
     },
     "REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY": {
       "description": "The currency used in the Marketplace as ISO 4217 currency code. For example: USD, EUR, CAD, AUD, etc.",

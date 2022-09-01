@@ -1,6 +1,7 @@
 import * as custom from './marketplace-custom-config.js';
 import defaultLocationSearches from './default-location-searches';
 import { defaultMCC, stripePublishableKey, stripeCountryDetails } from './stripe-config';
+import { easypostAPIKey, defaultLength, defaultWidth, defaultHeight, defaultWeight } from './easypost-config';
 import { subUnitDivisors, currencyConfiguration } from './currency-config';
 
 const env = process.env.REACT_APP_ENV;
@@ -266,6 +267,13 @@ const config = {
     defaultMCC: defaultMCC,
     publishableKey: stripePublishableKey,
     supportedCountries: stripeCountryDetails,
+  },
+  easypost: {
+    easypostAPIKey: easypostAPIKey,
+    defaultLength: defaultLength,
+    defaultWidth: defaultWidth,
+    defaultHeight: defaultHeight,
+    defaultWeight: defaultWeight,
   },
   canonicalRootURL,
   address: {

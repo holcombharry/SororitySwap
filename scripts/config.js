@@ -114,6 +114,10 @@ const mandatoryVariables = settings => {
     settings && settings.REACT_APP_MAPBOX_ACCESS_TOKEN !== ''
       ? { default: settings.REACT_APP_MAPBOX_ACCESS_TOKEN }
       : {};
+  const easyPostDefaultMaybe =
+    settings && settings.EASYPOST_API_KEY !== ''
+      ? { default: settings.EASYPOST_API_KEY }
+      : {};
   const currencyDefault =
     settings && settings.REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY !== ''
       ? settings.REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY
@@ -174,6 +178,17 @@ If you don't set the Mapbox key, the map components won't work in the applicatio
 )}
 `,
       ...mapBoxDefaultMaybe,
+    },
+    {
+      type: 'input',
+      name: 'EASYPOST_API_KEY',
+      message: `What is your EasyPost API key?
+${chalk.dim(
+  `EasyPost is the default shipping provider of the application. Sign up for EasyPost and go the to account page. Create an account and retrieve API key.
+If you don't set the EasyPost key, the shipping components won't work in the application.`
+)}
+`,
+      ...easyPostDefaultMaybe,
     },
     {
       type: 'input',
