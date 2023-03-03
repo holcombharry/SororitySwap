@@ -7,6 +7,38 @@ import startingOverImage from './images/startingOver.jpg';
 
 export const blogPosts = [
   {
+    title: "Delta Gamma",
+    summary: `Sorority Spotlight: No. 3`,
+    author: "Matthew Boccia",
+    imgUrl: deltaGammaImage,
+    body: [
+      "Delta Gamma is a women's sorority that was founded in 1873 at the Lewis School for Girls in Oxford, Mississippi. The sorority was founded by three women, Anna Boyd Ellington, Mary Comfort Leonard, and Eva Webb Dodd.",
+      "The early days of Delta Gamma were marked by a focus on charity and service. The sorority's motto, 'Do Good,' reflected this commitment to making a positive impact in the lives of others. In the late 19th and early 20th centuries, Delta Gamma established a number of philanthropic initiatives, including the Anchor Club for blind college students and the Delta Gamma sorority for Blind Women.",
+      "As the sorority grew and expanded to new campuses, it faced challenges and controversy. In the 1930s, some members advocated for the sorority to become a national organization, while others preferred to maintain its focus on local chapters. Eventually, the sorority transitioned to a national organization, but it continued to place a strong emphasis on community service and philanthropy.",
+      "Today, Delta Gamma is a thriving sorority with over 150 collegiate chapters and more than 200 alumnae groups. The sorority's philanthropic efforts continue to be a major focus, with a particular emphasis on supporting organizations that serve individuals who are visually impaired. The sorority also supports a number of leadership and personal development programs for its members.",
+      "In addition to promoting scholarship, Alpha Phi has also been dedicated to giving back to the community. The sorority has a philanthropic partnership with the Alpha Phi Foundation, which supports women's heart health research and education. The organization also encourages its members to volunteer in their local communities and supports a variety of charitable causes.",
+      "Delta Gamma Sorority has a rich history of philanthropy, community service, and empowering women. From its beginnings in 1873 as a local organization, to becoming a national organization that continues to make a positive impact in the lives of its members and the communities it serves, the sorority's commitment to its motto 'Do Good' has stood the test of time and continues to inspire its members to make a difference in the world.",
+    ],
+    imgCredit: "",
+    datePublished: "",
+  },
+  {
+    title: "Alpha Phi",
+    summary: `Sorority Spotlight: No. 2`,
+    author: "Matthew Boccia",
+    imgUrl: alphaPhiImage,
+    body: [
+      "Alpha Phi was founded on October 10, 1872 at Syracuse University in Syracuse, New York. The organization was founded by 10 women: Martha Foote Crow, Ida Shaw Martin, Alice Allen, Elizabeth Heywood Wyman, Frances E. Haven, Hannah Jeannette Hay, Harriet A. McCollester, Helen M. Scranton, Louise Helen Coburn and Mary A. Bingham. These founding women were determined to create an organization that would support and empower women in higher education, which was not as common for women at the time.",
+      "The organization's mission is to promote sisterhood, scholarship, service and leadership among its members. Alpha Phi's colors are silver and bordeaux, and its symbol is the ivy leaf.",
+      "Alpha Phi quickly grew in popularity and soon expanded to other colleges and universities across the United States. By 1885, the sorority had grown to include 22 chapters. In 1902, Alpha Phi officially became an international organization with the chartering of a chapter in Toronto, Canada. Today, Alpha Phi has over 150 active collegiate chapters and more than 200 alumni groups across the United States and Canada.",
+      "Throughout its history, Alpha Phi has been dedicated to promoting scholarship and leadership among its members. The sorority offers numerous scholarships and awards to members, as well as programs and resources to support their academic and professional development.",
+      "In addition to promoting scholarship, Alpha Phi has also been dedicated to giving back to the community. The sorority has a philanthropic partnership with the Alpha Phi Foundation, which supports women's heart health research and education. The organization also encourages its members to volunteer in their local communities and supports a variety of charitable causes.",
+      "Alpha Phi is also known for its commitment to sisterhood and friendship. The sorority provides a supportive and inclusive environment for its members and encourages them to form lasting friendships and connections.",
+    ],
+    imgCredit: "",
+    datePublished: "",
+  },
+  {
     title: "Our Favorite Bid Day Themes for Spring 2023",
     summary: `The Sorority Swap Thoughts: No. 4`,
     author: "Sarrah George",
