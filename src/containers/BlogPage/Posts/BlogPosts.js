@@ -5,9 +5,37 @@ import realizationsImage from './images/3Realizations.jpg';
 import bidDayThemesImage from './images/bidDayThemes.jpg';
 import startingOverImage from './images/startingOver.jpg';
 import thingsToKnowImage from './images/4ThingsToKnow.png';
-import eachDayOfRecruitment from './images/EachDayOfRecruitment.jpg'
+import eachDayOfRecruitment from './images/EachDayOfRecruitment.jpg';
+import howDoYouSayGoodbyeImage from './images/howDoYouSayGoodbye.jpg';
 
 export const blogPosts = [
+  {
+    title: "How Do You Say Goodbye?",
+    summary: `The Sorority Swap Thoughts: No. 8`,
+    author: "Sarrah George",
+    imgUrl: howDoYouSayGoodbyeImage,
+    body: [
+      "Even though I knew my time in a sorority would come to an end, I never pictured myself saying goodbye.",
+      "As a freshman in college, I looked at the seniors in awe of their ability to understand sorority life and move on to larger things. Now as a senior, I look at the new initiates in awe of the four amazing years they have coming towards them. I look at everyone in the member classes below me, knowing how many beautiful memories they will make with their sisters. I look at them in hopes that they live in the moment, attend all the events they can, and cherish the experiences of the sorority.",
+      "Time moves quickly.",
+      "One moment I was saying goodbye to my big as she graduated and the next minute she was congratulating me.",
+      "I have spent four years of my life with the girls in my member class and made an unthinkable amount of memories with each new member class after me. How do I say goodbye to them?",
+      "*I could start by saying thank you.",
+      "Thank you to the member classes before me for allowing me to be a part of Sigma Kappa. Thank you to my member class for accepting me and pulling me out of my shell, always filling my days with laughter. Thank you to the member classes below me for befriending me and allowing me to lead them in the chapter. Thank you to the women in Sigma Kappa for giving me four years to remember what home felt like. The women in my sorority made me feel accepted, loved, and cherished. Not many people get to experience that, so for that, I am grateful. For that, I say thank you.",
+      "*I could let them know how much they mean to me.",
+      "The women in my sorority are my family. There’s no other way to describe it. I’ve fought with my sisters, cried and laughed with them, and each moment, no matter the feeling, brought us closer together. I didn’t think it was possible for an organization, let alone a sorority, to help me find a whole new family. But Sigma Kappa did.",
+      "I think about the future—think about where we will all be in ten years—and I can’t help but hope that every moment in their life is filled with the happiness they provided me. I hope that they cherish every moment left in the sorority and look forward to their lives after it.",
+      "*I could give them some of my old-aged wisdom.",
+      "I would say what I always say: time moves quickly. It may not feel like it, but trust me, time will move in a blink of an eye. It is important for me to tell them that living in the present is the only way to feel satisfied with life. All I can ask them to do is enjoy where they are now. Stop every now and then and take a look around. Admire the world around us. Admire their sisters, friends, roommate, and school, even though it’s hard to with twenty-four-seven construction going on. Admire the memories and the moments that will soon turn into memories.",
+      "We can look back on our past and wish to go back or we can look towards the future, imagining what we will be doing or where we will be, but we should never forget the present. Right here, right now, the moment we live in is just as important as before or later.",
+      "Even in this letter, I have focused on the past and the future.",
+      "So, I am saying right now, in the present, I will always cherish my time in Sigma Kappa. Each and every one of my sisters have a place in my heart. I am beyond grateful to my sisters and the love they have given me throughout these years.",
+      "*How am I supposed to say goodbye?",
+      "The truth is that I won’t say goodbye. I’ll say that I love them. I’ll say that I miss seeing their faces around campus or at events and the conversations we have. I’ll miss the laughter, smiles, and causing ruckus with my member class. I’ll tell them how much they mean to me. I’ll give them my wise advice and I’ll let them know how grateful I am for each and every one of them. I’ll submit this blog post and send it to them and I’ll hope they know that words can’t describe how much I appreciate them."
+    ],
+    imgCredit: "Sigma Kappa’s 2023 senior class at The University of Tampa",
+    datePublished: "September 12, 2023",
+  },
   {
     title: "What Happens During Each Day of Recruitment?",
     summary: `The Sorority Swap Thoughts: No. 7`,
