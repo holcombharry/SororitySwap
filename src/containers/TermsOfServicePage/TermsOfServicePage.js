@@ -49,9 +49,9 @@ const TermsOfServicePageComponent = props => {
   return (
     <Page title={schemaTitle} scrollingDisabled={scrollingDisabled} schema={schema}>
       <LayoutSideNavigation>
-        <LayoutWrapperTopbar>
+        {/* <LayoutWrapperTopbar>
           <TopbarContainer currentPage="TermsOfServicePage" />
-        </LayoutWrapperTopbar>
+        </LayoutWrapperTopbar> */}
         <LayoutWrapperSideNav tabs={tabs} />
         <LayoutWrapperMain>
           <div className={css.content}>

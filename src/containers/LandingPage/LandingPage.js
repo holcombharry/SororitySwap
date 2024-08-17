@@ -57,9 +57,9 @@ export const LandingPageComponent = props => {
       }}
     >
       <LayoutSingleColumn>
-        <LayoutWrapperTopbar>
+        {/* <LayoutWrapperTopbar>
           <TopbarContainer />
-        </LayoutWrapperTopbar>
+        </LayoutWrapperTopbar> */}
         <LayoutWrapperMain>
           <div className={css.heroContainer}>
             <SectionHero
@@ -69,7 +69,7 @@ export const LandingPageComponent = props => {
               location={location}
             />
           </div>
-          <ul className={css.sections}>
+          {/* <ul className={css.sections}>
             <li className={css.section}>
               <div className={css.sectionContentFirstChild}>
                 <SectionFilteredSearches />
@@ -80,7 +80,7 @@ export const LandingPageComponent = props => {
                 <SectionHowItWorks />
               </div>
             </li>
-          </ul>
+          </ul> */}
         </LayoutWrapperMain>
         <LayoutWrapperFooter>
           <Footer />

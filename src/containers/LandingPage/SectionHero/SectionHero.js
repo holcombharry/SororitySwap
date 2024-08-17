@@ -21,17 +21,17 @@ const SectionHero = props => {
     <div className={classes}>
       <div className={css.heroContent}>
         <h1 className={classNames(css.heroMainTitle, { [css.heroMainTitleFEDelay]: mounted })}>
-          <FormattedMessage id="SectionHero.title" />
+          <FormattedMessage id="The Sorority Swap is temporarily unavailable." />
         </h1>
-        <h2 className={classNames(css.heroSubTitle, { [css.heroSubTitleFEDelay]: mounted })}>
+        {/* <h2 className={classNames(css.heroSubTitle, { [css.heroSubTitleFEDelay]: mounted })}>
           <FormattedMessage id="SectionHero.subTitle" />
-        </h2>
-        <NamedLink
+        </h2> */}
+        {/* <NamedLink
           name="SearchPage"
           className={classNames(css.heroButton, { [css.heroButtonFEDelay]: mounted })}
         >
           <FormattedMessage id="SectionHero.browseButton" />
-        </NamedLink>
+        </NamedLink> */}
       </div>
     </div>
   );

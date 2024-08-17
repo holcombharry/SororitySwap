@@ -49,9 +49,9 @@ const PrivacyPolicyPageComponent = props => {
   return (
     <Page title={schemaTitle} scrollingDisabled={scrollingDisabled} schema={schema}>
       <LayoutSideNavigation>
-        <LayoutWrapperTopbar>
+        {/* <LayoutWrapperTopbar>
           <TopbarContainer currentPage="PrivacyPolicyPage" />
-        </LayoutWrapperTopbar>
+        </LayoutWrapperTopbar> */}
         <LayoutWrapperSideNav tabs={tabs} />
         <LayoutWrapperMain>
           <div className={css.content}>
